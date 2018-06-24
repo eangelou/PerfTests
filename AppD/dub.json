@@ -1,0 +1,13 @@
+{
+	"name" : "appd",
+	"description" : "A small performance testing app in D.",
+	"authors": ["Vangelis Angelou"],
+	"homepage": "http://myproject.example.com",
+	"license": "GPL-2.0",
+	"dependencies" : {
+		"pyd": "~>0.9.9"
+	},
+	"subPackages": [],
+	"targetName" : "AppD",
+	"targetType": "executable"
+}
