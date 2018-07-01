@@ -24,6 +24,7 @@ int main(string[] args)
     if (helpInformation.helpWanted)
     {
         defaultGetoptPrinter("Some information about the program.", helpInformation.options);
+        return 0;
     }
 
 	Version flagVersion;
