@@ -1,0 +1,13 @@
+{
+	"name" : "dtutorial",
+	"description" : "A small test app in D.",
+	"authors": ["Vangelis Angelou"],
+	"homepage": "http://myproject.example.com",
+	"license": "GPL-2.0",
+	"dependencies" : {
+		"pyd": "~>0.9.9"
+	},
+	"subPackages": [],
+	"targetName" : "DTutorial",
+	"targetType": "executable"
+}
