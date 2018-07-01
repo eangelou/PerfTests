@@ -14,9 +14,9 @@ int main(string[] args)
     uint major, minor, patch;
     string versionString;
     bool json;
-    auto helpInformation = getopt(args, "M|major", "Version major number.", &major, // numeric
-            "m|minor", "Version minor number.", &major, // numeric
-            "p|patch", "Version patch number.", &major, // numeric
+    auto helpInformation = getopt(args, "m|major", "Version major number.", &major, // numeric
+            "n|minor", "Version minor number.", &minor, // numeric
+            "p|patch", "Version patch number.", &patch, // numeric
             "v|version", "Version as parsable  ('.' separated) version string. Ommited numbers will be considered 0. If json is enabled, a json representation is assumed (e.g. {\"version\": \"1.2.3\"}).", &versionString, // string 
             "j|json", "Enable JSON version parsing and output.", &json // bool 
             ); // enum
