@@ -1,6 +1,8 @@
 {
 	"dub": {
-		"lastUpgrade": "2018-07-01T08:49:42.0457358",
-		"cachedUpgrades": {}
+		"lastUpgrade": "2018-09-16T12:23:14.2868871",
+		"cachedUpgrades": {
+			"pyd": "0.9.9"
+		}
 	}
 }
