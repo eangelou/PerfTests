@@ -5,7 +5,7 @@
 	"homepage": "http://myproject.example.com",
 	"license": "GPL-2.0",
 	"dependencies" : {
-		"pyd": "~>0.9.9"
+		"pyd": "~>0.10.5"
 	},
 	"subPackages": [],
 	"targetName" : "DTutorial",
