@@ -17,7 +17,8 @@ int main(string[] args)
     auto helpInformation = getopt(args, "m|major", "Version major number.", &major, // numeric
             "n|minor", "Version minor number.", &minor, // numeric
             "p|patch", "Version patch number.", &patch, // numeric
-            "v|version", "Version as parsable  ('.' separated) version string. Ommited numbers will be considered 0. If json is enabled, a json representation is assumed (e.g. {\"version\": \"1.2.3\"}).", &versionString, // string 
+            "v|version", "Version as parsable  ('.' separated) version string. Ommited numbers will be considered 0.
+             If json is enabled, a json representation is assumed (e.g. {\"version\": \"1.2.3\"}).", &versionString, // string 
             "j|json", "Enable JSON version parsing and output.", &json // bool 
             ); // enum
             

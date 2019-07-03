@@ -1,3 +1,5 @@
 .idea/**
 **.s
 .dub/**
+.dub
+dub_platform_probe*
