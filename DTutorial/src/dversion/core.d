@@ -67,7 +67,7 @@ class Version
         strBuilder.put(to!string(minor));
         strBuilder.put(".");
         strBuilder.put(to!string(patch));
-        this.v = ["version" : strBuilder.data];
+        this.v = ["version": strBuilder.data];
     }
 
     string getVersionJSON()
@@ -93,7 +93,7 @@ class Version
 
     void printVersion()
     {
-    	auto strBuilder = appender!string;
+        auto strBuilder = appender!string;
         strBuilder.put(to!string(this.major));
         strBuilder.put(".");
         strBuilder.put(to!string(this.minor));
