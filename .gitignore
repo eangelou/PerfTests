@@ -2,3 +2,6 @@
 **.o
 **/.dub
 **.pyc
+.idea
+.project
+.pydevproject
