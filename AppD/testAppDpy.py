@@ -7,6 +7,6 @@ Created on May 13, 2018
 import AppDpy
 
 if __name__ == '__main__':
-    print  AppDpy
+    print(AppDpy)
     a = AppDpy.TestClass(20000,10)
     a.main()
